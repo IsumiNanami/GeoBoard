@@ -1,0 +1,60 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* 更现代的字体 */
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center; /* 居中内容 */
+    width: 100%;
+    max-width: 900px; /* 最大宽度，保持界面不太宽 */
+    padding: 20px;
+}
+
+h1#board-title {
+    font-family: 'Times New Roman', Times, serif; /* 使用 Times New Roman 字体 */
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* 画布样式 */
+canvas {
+    border: 2px solid #000;
+    background-color: #fff;
+    width: 800px;
+    height: 600px;
+    margin-bottom: 20px; /* 画布和按钮之间的间距 */
+}
+
+/* 控制按钮样式 */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 按钮之间的间距 */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 按钮悬浮效果 */
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004085;
+}
